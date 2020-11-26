@@ -22,8 +22,9 @@ pod 'testFW'
 
 ## Author
 
-xuhuan, xuhuan@rongcloud.cn
+AssassinrKiller, ios_service@126.com
 
 ## License
 
 testFW is available under the MIT license. See the LICENSE file for more info.
+# testFW

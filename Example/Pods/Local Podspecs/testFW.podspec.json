@@ -1,0 +1,27 @@
+{
+  "name": "testFW",
+  "version": "0.0.1",
+  "summary": "测试资源文件的存放 testFW.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AssassinrKiller/testFW",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AssassinrKiller": "ios_service@126.com"
+  },
+  "source": {
+    "git": "https://github.com/AssassinrKiller/testFW.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "testFW/Classes/**/*",
+  "resources": [
+    "testFW/Assets/Resources/testFW.bundle",
+    "testFW/Assets/Resources/en.lproj",
+    "testFW/Assets/Resources/zh.lproj"
+  ]
+}

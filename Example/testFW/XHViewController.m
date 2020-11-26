@@ -8,6 +8,8 @@
 
 #import "XHViewController.h"
 
+#import "TestView.h"
+
 @interface XHViewController ()
 
 @end
@@ -17,7 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    TestView *view = [[TestView alloc] init];
+    view.frame = [UIScreen mainScreen].bounds;
+    [self.view addSubview:view];
+    
 }
 
 - (void)didReceiveMemoryWarning

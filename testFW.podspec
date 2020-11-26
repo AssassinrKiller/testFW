@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   
 #  s.resource = 'testFW/Assets/Resources/*'
 
-  s.resources = "testFW/Assets/Resources/testFW.bundle", "testFW/Assets/Resources/*.lproj",
+  s.resources = "testFW/Assets/Resources/testFW.bundle", "testFW/Assets/Resources/en.lproj", "testFW/Assets/Resources/zh.lproj"
   
   #s.resource_bundles = {
   #  'testFW' => ['testFW/Assets/Resources/*']
